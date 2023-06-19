@@ -5,6 +5,8 @@ import ModalSignup from "./component/modal-signup";
 import AboutUs from "./component/about-us";
 import Services from "./component/services";
 import TeameUs from "./component/team-us";
+import ChatBox from "./component/chatbox";
+import Footer from "./component/footer";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
       <AboutUs />
       <Services />
       <TeameUs />
+      <ChatBox />
+      <Footer />
     </>
   );
 }
