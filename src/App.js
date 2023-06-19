@@ -4,6 +4,7 @@ import ModalLogin from "./component/modal-login";
 import ModalSignup from "./component/modal-signup";
 import AboutUs from "./component/about-us";
 import Services from "./component/services";
+import TeameUs from "./component/team-us";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <ModalSignup />
       <AboutUs />
       <Services />
+      <TeameUs />
     </>
   );
 }
