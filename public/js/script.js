@@ -5,27 +5,6 @@ $(document).ready(function () {
   });
 });
 
-// Text Animation
-var typed = new Typed("#typed", {
-  strings: ["Freelancing"],
-  smartBackspace: true,
-  typeSpeed: 100,
-  backSpeed: 100,
-  loop: true,
-  loopCount: Infinity,
-  startDelay: 500,
-});
-
-var typed = new Typed("#About", {
-  strings: ["We're Freelancing"],
-  smartBackspace: true,
-  typeSpeed: 100,
-  backSpeed: 100,
-  loop: true,
-  loopCount: Infinity,
-  startDelay: 500,
-});
-
 // Sticky navbar
 $(window).scroll(function () {
   let position = $(this).scrollTop();
@@ -58,7 +37,7 @@ showPassword2.addEventListener("click", function () {
   passwordField2.setAttribute("type", type);
 });
 
-// Show input password2
+// Show input password3
 const showPassword3 = document.querySelector("#show-password3");
 const passwordField3 = document.querySelector("#Password3");
 

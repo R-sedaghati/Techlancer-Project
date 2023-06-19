@@ -1,6 +1,6 @@
 import img from "../images/Coding workshop-pana.svg";
 import Typed from "typed.js";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 const Header = () => {
   useEffect(() => {
