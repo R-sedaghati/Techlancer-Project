@@ -3,6 +3,7 @@ import ModalCantact from "./component/modal-contact";
 import ModalLogin from "./component/modal-login";
 import ModalSignup from "./component/modal-signup";
 import AboutUs from "./component/about-us";
+import Services from "./component/services";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <ModalLogin />
       <ModalSignup />
       <AboutUs />
+      <Services />
     </>
   );
 }
