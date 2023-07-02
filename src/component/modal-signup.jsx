@@ -65,7 +65,7 @@ const ModalSignup = () => {
                               <div className="input-group flex-nowrap">
                                 <input
                                   type="password"
-                                  id="Password"
+                                  id="Password2"
                                   className="form-control"
                                   aria-labelledby="passwordHelpInline"
                                   placeholder="Your password"
@@ -76,7 +76,7 @@ const ModalSignup = () => {
                                 >
                                   <i
                                     className="fa-solid fa-eye mx-auto"
-                                    id="show-password"
+                                    id="show-password2"
                                   ></i>
                                 </span>
                               </div>
@@ -101,7 +101,7 @@ const ModalSignup = () => {
                               <div className="input-group flex-nowrap">
                                 <input
                                   type="password"
-                                  id="Password"
+                                  id="Password3"
                                   className="form-control"
                                   aria-labelledby="passwordHelpInline"
                                   placeholder="Your password"
@@ -112,7 +112,7 @@ const ModalSignup = () => {
                                 >
                                   <i
                                     className="fa-solid fa-eye mx-auto"
-                                    id="show-password"
+                                    id="show-password3"
                                   ></i>
                                 </span>
                               </div>
