@@ -1,3 +1,4 @@
+import Preloader from "./component/preloader";
 import Header from "./component/header";
 import ModalCantact from "./component/modal-contact";
 import ModalLogin from "./component/modal-login";
@@ -10,6 +11,7 @@ import Footer from "./component/footer";
 function App() {
   return (
     <>
+      <Preloader />
       <Header />
       <ModalCantact />
       <ModalLogin />
