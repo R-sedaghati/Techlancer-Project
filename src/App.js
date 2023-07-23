@@ -2,6 +2,7 @@ import Preloader from "./component/preloader";
 import Header from "./component/header";
 import ModalCantact from "./component/modal-contact";
 import ModalLogin from "./component/modal-login";
+import ResetPassword from "./component/modal-reset-password";
 import ModalSignup from "./component/modal-signup";
 import AboutUs from "./component/about-us";
 import Services from "./component/services";
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <ModalCantact />
       <ModalLogin />
+      <ResetPassword />
       <ModalSignup />
       <AboutUs />
       <Services />
