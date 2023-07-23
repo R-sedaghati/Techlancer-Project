@@ -32,6 +32,26 @@ $(document).ready(function () {
       passwordField3.getAttribute("type") === "password" ? "text" : "password";
     passwordField3.setAttribute("type", type);
   });
+  // Show input password4
+  const showPassword4 = document.querySelector("#show-password4");
+  const passwordField4 = document.querySelector("#Password4");
+
+  showPassword4.addEventListener("click", function () {
+    this.classList.toggle("fa-eye-slash");
+    const type =
+      passwordField4.getAttribute("type") === "password" ? "text" : "password";
+    passwordField4.setAttribute("type", type);
+  });
+  // Show input password5
+  const showPassword5 = document.querySelector("#show-password5");
+  const passwordField5 = document.querySelector("#Password5");
+
+  showPassword5.addEventListener("click", function () {
+    this.classList.toggle("fa-eye-slash");
+    const type =
+      passwordField5.getAttribute("type") === "password" ? "text" : "password";
+    passwordField5.setAttribute("type", type);
+  });
   // MESSAGE INPUT
   const textarea = document.querySelector(".chatbox-message-input");
   const chatboxForm = document.querySelector(".chatbox-message-form");

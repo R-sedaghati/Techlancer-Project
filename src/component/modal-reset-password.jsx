@@ -20,7 +20,7 @@ class ResetPassword extends Component {
   render() {
     return (
       <>
-        {/* <!-- Signup-modal --> */}
+        {/* <!-- ResetPass-modal --> */}
         <div
           className="modal fade"
           id="resetpassmodal"
@@ -41,7 +41,7 @@ class ResetPassword extends Component {
                       >
                         <div className="col-12">
                           <label
-                            htmlFor="email"
+                            htmlFor="Resetpass"
                             className="form-label fs-4 mb-3"
                           >
                             Email
@@ -50,24 +50,15 @@ class ResetPassword extends Component {
                             ref={this.login_method}
                             type="text"
                             className="form-control"
-                            id="email"
+                            id="Resetpass"
                             placeholder="Enter your email or Phone number"
                           />
                         </div>
                         <div className="col-12 mt-3 mb-3 mb-sm-0">
-                          <button
-                            type="submit"
-                            className="btn btn-success btn-lg"
-                          >
-                            Send OTP
-                          </button>
-                          <button
-                            type="button"
-                            className="btn btn-danger ms-3 btn-lg"
-                            data-bs-dismiss="modal"
-                          >
-                            Close
-                          </button>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" type="submit" data-bs-toggle="modal" data-bs-target="#Otpmodal">Show OTP</button>
+                            <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                        </div>
                         </div>
                       </form>
                     </div>
@@ -77,7 +68,7 @@ class ResetPassword extends Component {
             </div>
           </div>
         </div>
-        {/* <!-- End of Signup-modal --> */}
+        {/* <!-- End of ResetPass-modal --> */}
       </>
     );
   }

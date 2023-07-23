@@ -271,6 +271,22 @@ header {
   background-position: center;
 }
 
+.modal-otp-bg{
+  background-image: url(../Enter\ OTP-cuate.svg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.otp-field{
+  width: 100%;
+  border-radius: 4px;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
 .modal-signup-bg{
   background-image: url(../Sign\ up-amico.svg);
   min-height: 400px;

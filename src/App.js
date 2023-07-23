@@ -3,6 +3,7 @@ import Header from "./component/header";
 import ModalCantact from "./component/modal-contact";
 import ModalLogin from "./component/modal-login";
 import ResetPassword from "./component/modal-reset-password";
+import ModalOtp from "./component/modal-otp";
 import ModalSignup from "./component/modal-signup";
 import AboutUs from "./component/about-us";
 import Services from "./component/services";
@@ -17,6 +18,7 @@ function App() {
       <ModalCantact />
       <ModalLogin />
       <ResetPassword />
+      <ModalOtp />
       <ModalSignup />
       <AboutUs />
       <Services />
