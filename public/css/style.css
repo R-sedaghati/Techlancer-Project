@@ -287,6 +287,13 @@ header {
   display: inline-block;
 }
 
+.otp-register-bg{
+  background-image: url(../Enter\ OTP-cuate.svg);
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .modal-signup-bg{
   background-image: url(../Sign\ up-amico.svg);
   min-height: 400px;

@@ -166,6 +166,8 @@ class ModalSignup extends Component {
                           <button
                             type="submit"
                             className="btn btn-success btn-lg"
+                            data-bs-toggle="modal"
+                            data-bs-target="#OptRegister"
                           >
                             Sign up
                           </button>

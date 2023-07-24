@@ -5,6 +5,7 @@ import ModalLogin from "./component/modal-login";
 import ResetPassword from "./component/modal-reset-password";
 import ModalOtp from "./component/modal-otp";
 import ModalSignup from "./component/modal-signup";
+import OtpRegister from "./component/otp-register";
 import AboutUs from "./component/about-us";
 import Services from "./component/services";
 import TeameUs from "./component/team-us";
@@ -20,6 +21,7 @@ function App() {
       <ResetPassword />
       <ModalOtp />
       <ModalSignup />
+      <OtpRegister />
       <AboutUs />
       <Services />
       <TeameUs />
